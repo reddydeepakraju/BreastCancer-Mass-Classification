@@ -1,18 +1,18 @@
 Deep Learning Project (MLP) Results
-===============================
+==============================
 
-Test ROC-AUC: 0.8886
+Test ROC-AUC: 1.0000
 
 Classification Report:
               precision    recall  f1-score   support
 
-           0     0.8417    0.7829    0.8112       129
-           1     0.7686    0.8304    0.7983       112
+           0     0.0000    0.0000    0.0000         1
+           1     0.8000    1.0000    0.8889         4
 
-    accuracy                         0.8050       241
-   macro avg     0.8051    0.8067    0.8048       241
-weighted avg     0.8077    0.8050    0.8052       241
+    accuracy                         0.8000         5
+   macro avg     0.4000    0.5000    0.4444         5
+weighted avg     0.6400    0.8000    0.7111         5
 
 Confusion Matrix:
-[[101  28]
- [ 19  93]]
+[[0 1]
+ [0 4]]
